@@ -1,0 +1,53 @@
+.reg {
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background: 	linear-gradient(to right, #56e24c, #00ff00);
+    background: radial-gradient(circle, #e425d1, #34c6e3);
+  }
+  
+  .reg h1 {
+    text-align: center;
+  }
+  
+  .reg form {
+    text-align: center;
+  }
+  
+  .regcss {
+    width: 100%;
+  }
+  
+  .regcss td {
+    padding: 10px;
+  }
+  
+  .regcss label {
+    font-weight: bold;
+  }
+  
+  .regcss input[type='text'],
+  .regcss select {
+    width: calc(100% - 20px); /* Adjusted for padding */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .regcss button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .regcss button:hover {
+    background-color: #45a049;
+  }
+  

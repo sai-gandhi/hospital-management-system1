@@ -1,0 +1,68 @@
+.contactbg{
+  background-color: lightblue;
+}
+.contact {
+  margin: 20px auto;
+  width: 50%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background: 	linear-gradient(to right, #56e24c, #00ff00);
+  background: radial-gradient(circle, #e425d1, #34c6e3);
+}
+.img1{
+  height: 500px;
+  width: 1500px;
+}
+.h4{
+  text-align: center;
+  color: #e60606;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact form {
+  text-align: center;
+}
+
+.contactcss {
+  width: 100%;
+}
+
+.contactcss td {
+  padding: 10px;
+}
+
+.contactcss label {
+  font-weight: bold;
+}
+
+.contactcss input[type='text'],
+.contactcss select {
+  width: calc(100% - 20px); /* Adjusted for padding */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contactcss button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contactcss button:hover {
+  background-color: #45a049;
+}
+
+
+.copy1{
+  background-color: #e60606;
+}

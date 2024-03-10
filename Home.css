@@ -1,0 +1,238 @@
+#boxes{
+  height: 850px;
+  width: 1400px;
+  background: 	linear-gradient(to right, #56e24c, #00ff00);
+  background: radial-gradient(circle, #e425d1, #34c6e3);
+  margin-left: 100px;
+  margin-bottom: 200px;
+
+}
+.main2{
+  height: 700px;
+  width: 1500px;
+}
+.container1 {
+  display: flex;
+  align-items: center; /* Centers vertically */
+}
+
+.image {
+  flex: 1; /* Take 50% of the width */
+}
+
+.text1 {
+  flex: 2; /* Take 50% of the width */
+  padding: 0 20px; /* Optional: Add some space between image and text */
+}
+
+/* For smaller screens, stack elements vertically */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image, .text {
+    flex: none; /* Reset flex to none for stacking */
+    width: 100%; /* Take full width */
+  }
+}
+
+.container2 {
+  display: flex;
+  align-items: center; /* Centers vertically */
+}
+
+.image {
+  flex: 1; /* Take 50% of the width */
+}
+
+.text2 {
+  flex: 2; /* Take 50% of the width */
+  padding: 0 20px; /* Optional: Add some space between image and text */
+}
+
+/* For smaller screens, stack elements vertically */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image, .text {
+    flex: none; /* Reset flex to none for stacking */
+    width: 100%; /* Take full width */
+  }
+}
+
+.container3 {
+  display: flex;
+  align-items: center; /* Centers vertically */
+}
+
+.image {
+  flex: 1; /* Take 50% of the width */
+}
+
+.text3 {
+  flex: 2; /* Take 50% of the width */
+  padding: 0 20px; /* Optional: Add some space between image and text */
+}
+
+/* For smaller screens, stack elements vertically */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image, .text {
+    flex: none; /* Reset flex to none for stacking */
+    width: 100%; /* Take full width */
+  }
+}
+#boxes{
+  height: 800px;
+  width: 1500px;
+  margin-left: 0px;
+  padding: 0px;
+}
+#boxes1{
+  height: 200px;
+  width: 300px;
+  background: darkmagenta;
+  margin-top: 50px;
+  padding: 50px;
+  margin-left: 10px;
+  display:inline-block;
+  color:white;
+  border-radius: 25px;
+  margin-bottom: 0px;
+
+}
+#boxes2{
+  height: 200px;
+  width: 300px;
+  background: maroon;
+  margin-top: 70px;
+  padding: 50px;
+  margin-left: 25px;
+  display:inline-block;
+  color:white;
+  border-radius: 25px;
+  
+
+}
+#boxes3{
+  height: 200px;
+  width: 300px;
+  background: darkkhaki;
+  margin-top: 50px;
+  padding: 50px;
+  margin-left: 25px   ;
+  display:inline-block;
+  color:white;
+  border-radius: 25px;
+
+}
+#boxes4{
+  height: 200px;
+  width: 300px;
+  background: darkgreen;
+  margin-top: 50px;
+  padding: 50px;
+  margin-left: 10px;
+  display:inline-block;
+  color:white;
+  border-radius: 25px;
+
+}
+#boxes5{
+  height: 200px;
+  width: 300px;
+  background: darkorange;
+  margin-top: 10px;
+  padding: 50px;
+  margin-left: 25px   ;
+  display:inline-block;
+  color:white;
+  border-radius: 25px;
+
+}
+
+#boxes6{
+  height: 200px;
+  width: 300px;
+  background: darkturquoise;
+  margin-bottom: 30px;
+  padding: 40px;
+  margin-left: 25px   ;
+  display:inline-block;
+  color:white;
+  border-radius: 25px;
+}
+
+#boxes1:hover {
+  background: magenta; /* Change the color as desired */
+}
+
+#boxes2:hover {
+  background: red; /* Change the color as desired */
+}
+
+#boxes3:hover {
+  background: khaki; /* Change the color as desired */
+}
+
+#boxes4:hover {
+  background: green; /* Change the color as desired */
+}
+
+#boxes5:hover {
+  background: orange; /* Change the color as desired */
+}
+
+#boxes6:hover {
+  background: turquoise; /* Change the color as desired */
+}
+
+#img1{
+  max-width: 50px;
+  max-height: 50px;
+}
+#img2{
+  max-width: 50px;
+  max-height: 50px;
+}
+#img3{
+
+  max-width: 50px;
+  max-height: 50px;
+}
+#img4{
+  max-width: 50px;
+  max-height: 50px;
+}
+#img5{
+  max-width: 50px;
+  max-height: 50px;
+}
+#img6{
+  max-width: 50px;
+  max-height: 50px;
+}
+#p1{
+  color: black;
+}
+#p2{
+  color: black;
+}
+#p3{
+  color: black;
+}
+#p4{
+  color: black;
+}
+#p5{
+  color: black;
+}
+#p6{
+  color: black;
+}
